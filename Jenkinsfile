@@ -1,4 +1,4 @@
-node("fmp-maven") {
+node("maven") {
   checkout scm
   stage("Test") {
     sh "mvn test"
