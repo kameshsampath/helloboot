@@ -1,0 +1,11 @@
+---
+apiVersion: v1
+kind: RoleBinding
+metadata:
+  name: helloboot_edit_jenkins_slave
+roleRef:
+  name: edit_jenkins_slave
+  namespace: myproject
+subjects:
+- kind: ServiceAccount
+  name: helloboot
