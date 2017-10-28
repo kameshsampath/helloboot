@@ -56,7 +56,7 @@
         <dependencies>
           <dependency>
             <groupId>org.workspace7.fmp</groupId>
-            <artifactId>fmp-openshift-bc-enricher</artifactId>
+            <artifactId>fmp-openshift-bc-jenkins-enricher</artifactId>
             <version>0.1-SNAPSHOT</version>
           </dependency>
         </dependencies>

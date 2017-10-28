@@ -13,7 +13,7 @@
     - fmp-merge
     - fmp-remove-build-annotations
     - fmp-volume-permission
-    - fmp-openshift-bc-enricher
+    - fmp-openshift-bc-jenkins-enricher
     - f8-expose
     # Health checks
     - spring-boot-health-check
