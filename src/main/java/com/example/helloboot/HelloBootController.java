@@ -12,7 +12,7 @@ public class HelloBootController {
 
     @GetMapping("/whereami")
     public String whereami(@Value("${message.prefix}") String prefix) {
-        return String.format("% from %s", prefix, System.getenv().getOrDefault("HOSTNAME", "localhost"));
+        return String.format("%s from %s", prefix, System.getenv().getOrDefault("HOSTNAME", "localhost"));
     }
 
 }

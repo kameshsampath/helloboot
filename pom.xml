@@ -70,25 +70,14 @@
           <plugin>
             <groupId>io.fabric8</groupId>
             <artifactId>fabric8-maven-plugin</artifactId>
-            <dependencies>
-              <dependency>
-                <groupId>org.workspace7.fmp</groupId>
-                <artifactId>fmp-openshift-bc-jenkins-enricher</artifactId>
-                <version>0.1-SNAPSHOT</version>
-              </dependency>
-            </dependencies>
-            <configuration>
-              <profile>jenkins-springboot-app</profile>
-              <enricher>
-                <config>
-                  <fmp-openshift-bc-jenkins-enricher>
-                    <genericSecret>abcde</genericSecret>
-                    <githubWebHookSecret>wxyz</githubWebHookSecret>
-                    <mavenMirrorUrl>http://nexus</mavenMirrorUrl>
-                  </fmp-openshift-bc-jenkins-enricher>
-                </config>
-              </enricher>
-            </configuration>
+            <version>3.5-SNAPSHOT</version>
+            <executions>
+              <execution>
+                <goals>
+                  <goal>resource</goal>
+                </goals>
+              </execution>
+            </executions>
           </plugin>
         </plugins>
       </build>
