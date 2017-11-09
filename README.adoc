@@ -35,3 +35,5 @@ oc apply -f openshift
 ----
 
 image::./helloboot-nexus_pipeline.png
+
+== Setting up Webhook
