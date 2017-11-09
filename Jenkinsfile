@@ -1,5 +1,5 @@
 
-  node("mavemwithnexus") {
+  node("mavenwithnexus") {
     checkout scm
     stage("Test") {
       sh "mvn test"
